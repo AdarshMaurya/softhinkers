@@ -1,3 +1,7 @@
 <hr>
-
-<p class="text-center">Copyright Softhinkers 2013-2020 - All Rights Reserved</p>
+<footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3">©
+        <a href="https://softhinkers.com/"> Softhinkers</a>
+        2013-20 Copyright - All right reserved.
+    </div>
+</footer>
