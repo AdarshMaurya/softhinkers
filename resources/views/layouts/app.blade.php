@@ -8,11 +8,17 @@
     @include('partials._nav')
     <div class="container">
         @include('partials._messages')
-        @yield('content')
+        <div class="row">
+            <div class="col-sm-1">@yield('left')</div>
+            <div class="col-sm-10"> @yield('content')</div>
+            <div class="col-sm-1">@yield('right')</div>
+        </div>
+        @include('partials._footer')
+        @yield('scripts')
+        @include('partials._javascript')
     </div>
-    @include('partials._footer')
 </div>
-@include('partials._javascript')
-@yield('scripts')
 </body>
 </html>
+
+
